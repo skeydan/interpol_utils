@@ -5,9 +5,9 @@ requires = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "readprompt"
+name = "interpol_utils"
 version = "1.0.0"
-description = ""
+description = "tbd"
 readme = "README.md"
 license = { file = "LICENSE" }
 dependencies = []

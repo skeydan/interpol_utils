@@ -1,6 +1,3 @@
-import os
-
-
 # functions:
 # - interpolate
 # - interpolate-text
@@ -9,8 +6,8 @@ import os
 
 
 
-def read_prompt(promptfile, **replacements):
-    with open(os.path.join(prompts_dir, promptfile), "r") as file:
+def interpolate(file, **replacements):
+    with open(file, "r") as file:
         contents = file.read()
         replaced = contents.format(**replacements)
     return replaced
