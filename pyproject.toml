@@ -11,3 +11,7 @@ description = "tbd"
 readme = "README.md"
 license = { file = "LICENSE" }
 dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
