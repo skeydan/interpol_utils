@@ -1,4 +1,5 @@
 dist/
 interpol_utils.egg-info
 .vscode/
+tests/__pycache__/
 
