@@ -5,7 +5,6 @@ python -m unittest tests.test_interpolate -v
 (Overall getting source imports to work with unittest is a mess, see e.g.
 https://stackoverflow.com/questions/62026129/python-adding-unit-test-inside-package,
 https://stackoverflow.com/questions/24210651/importing-in-init-py-to-a-unittest-package#24211483)
-
 """
 
 import os
